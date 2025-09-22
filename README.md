@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# React Text Editor 📝
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A feature-rich, web-based text editor application built from scratch with React. This project demonstrates core React concepts including component-based architecture, state management with hooks, event handling, and conditional rendering.
 
-## Available Scripts
+![Screenshot of the React Text Editor App]
+*(To add a screenshot: take a picture of your running app, add it to your project folder, and change the placeholder text above to the file name, like `![Screenshot](./screenshot.png)`)*
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This application allows users to:
+* **Add Text:** Dynamically add new text elements to the canvas.
+* **Drag & Drop:** Intuitively move text elements anywhere on the screen.
+* **Select Elements:** Click to select an element and reveal a contextual styling toolbar.
+* **Live Text Editing:** Double-click any text element to edit its content directly on the canvas.
+* **Rich Text Styling:**
+    * Bold, Italic, and Underline text.
+    * Change font family from a dropdown list.
+    * Adjust font size with a number input.
+    * Select font color using a native color picker.
+* **Undo/Redo:** Step backward and forward through your entire action history.
+* **Modern UI:** A clean and professional interface featuring a main header, a contextual style bar, and a persistent status bar.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **React:** For building the user interface with a component-based architecture.
+* **React Hooks (`useState`):** For managing component state and application history.
+* **Create React App:** For project setup and development environment.
+* **JavaScript (ES6+):** For application logic.
+* **CSS:** For custom styling, layout with Flexbox, and creating a responsive design.
+* **React Icons:** For including high-quality icons in the UI.
+* **Git & GitHub:** For version control and code hosting.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running, follow these simple steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+You need to have Node.js and npm installed on your machine.
+* [Node.js](https://nodejs.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.  Clone the repo:
+    ```sh
+    git clone [https://github.com/your-username/react-text-editor.git](https://github.com/your-username/react-text-editor.git)
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd react-text-editor
+    ```
+3.  Install NPM packages:
+    ```sh
+    npm install
+    ```
+4.  Run the app in development mode:
+    ```sh
+    npm start
+    ```
+This will open the app in your browser at [http://localhost:3000](http://localhost:3000).
