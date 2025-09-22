@@ -1,0 +1,73 @@
+.style-toolbar {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  z-index: 1000;
+  border: 1px solid #e0e0e0;
+}
+
+.style-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.style-group label {
+  font-size: 14px;
+  color: #555;
+}
+
+.style-group button {
+  background: none;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+
+.style-group button:hover {
+  background-color: #f0f0f0;
+}
+
+.style-input {
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  padding: 4px 6px;
+  width: 50px;
+}
+
+.font-select {
+  width: 120px; 
+}
+
+
+input[type="color"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+  border-radius: 4px;
+  border: 1px solid #dcdcdc;
+}
+input[type="color"]::-moz-color-swatch {
+  border-radius: 4px;
+  border: 1px solid #dcdcdc;
+}

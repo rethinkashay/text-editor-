@@ -1,0 +1,10 @@
+.canvas {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.text-edit-input {
+  background: transparent;
+  outline: none;
+  font-family: inherit; 
+}
